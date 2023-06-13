@@ -1,3 +1,6 @@
+-- Counts Earliest Date a Brand had a sku associated with it
+-- min create date on brands table is misleading as brands can be created but not actually in use
+
 USE bi; 
 SELECT 
   b.name BRAND,
